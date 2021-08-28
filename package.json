@@ -1,0 +1,35 @@
+{
+  "name": "cloud-db.ts",
+  "version": "1.0.5",
+  "description": "Typescript wrapper for cloud db, with typing support.",
+  "main": "./build/output.js",
+  "types": "./typings/output.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayvshockGD/cloud-db.ts.git"
+  },
+  "keywords": [
+    "db",
+    "storage",
+    "wrapper",
+    "api"
+  ],
+  "author": "WayvshockGD",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/WayvshockGD/cloud-db.ts/issues"
+  },
+  "homepage": "https://github.com/WayvshockGD/cloud-db.ts#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.4",
+    "@types/node-fetch": "^2.5.12",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "cloud-db.ts": "^1.0.1",
+    "node-fetch": "^2.6.1"
+  }
+}
